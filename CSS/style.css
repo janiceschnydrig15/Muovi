@@ -15,7 +15,7 @@ img {
   width: 100px;
  }
 
-.nav_links{
+.navigationsleiste{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -23,7 +23,7 @@ img {
   padding: 0;
   list-style: none;
 }
-.nav_links ul {
+.navigationsleiste ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -31,11 +31,11 @@ img {
   background-color: #333;
 }
 
-.nav_links li {
-  float: left;
+.navigationsleiste li {
+  float: right;
 }
 
-.nav_links li a {
+.navigationsleiste li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -43,6 +43,6 @@ img {
   text-decoration: none;
 }
 
-.nav_links li a:hover {
+.navigationsleiste li a:hover {
   background-color: #111;
 }
