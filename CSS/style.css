@@ -14,9 +14,6 @@ img {
  .logo {
   height: 100px;
   width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
  }
 
 .navigationsleiste {
@@ -26,7 +23,6 @@ img {
 
 }
 .navigationsleiste ul {
-  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
