@@ -52,15 +52,17 @@ img {
   background-color: #dee1dd;
 }
 
-.article {
+.partner {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 22px;
+  /*padding: 22px;*/
+  height: 30%;
+  width: 30%;
 }
 
-.Partner_Denner {
+/*.Partner_Denner {
 
 }
 
@@ -82,7 +84,7 @@ img {
 
 .Partner_Coop {
 
-}
+} */
 
 
 
