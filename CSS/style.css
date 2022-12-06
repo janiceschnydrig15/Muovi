@@ -17,10 +17,10 @@ img {
   justify-content: center;
  }
 
-.navigationsleiste{
+.navigationsleiste {
   display: flex;
   flex-wrap: wrap;
-  align-items: right;
+  align-items: center;
   justify-content: center;
   justify-content: space-around;
   margin: 0px;
@@ -29,6 +29,7 @@ img {
 
 }
 .navigationsleiste ul {
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
