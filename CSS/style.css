@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+
   background-color: rgb(10, 87, 33);
   color: #ffffff;
   padding: 22px;
@@ -39,6 +40,7 @@ img {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
+  align-items: flex-start;
   padding: 14px 16px;
   text-decoration: none;
 }
