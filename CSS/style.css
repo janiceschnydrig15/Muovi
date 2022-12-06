@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex-wrap: nowrap;
+  align-items: flex-end;
   justify-content: space-between;
   background-color: rgb(42, 115, 142);
   color: #ffffff;
@@ -21,7 +22,7 @@ img {
 .navigationsleiste{
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  
   margin: 0px;
   padding: 0;
   list-style: none;
