@@ -1,8 +1,9 @@
 header {
   display: flex;
-  background-color: rgb(10, 35, 33);
+  background-color: rgb(42, 115, 142);
   color: #ffffff;
   padding: 22px;
+  justify-content: space-between;
 }
 
 img {
@@ -18,11 +19,6 @@ img {
  }
 
 .navigationsleiste {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
   margin: 0px;
   padding: 0;
   list-style: none;
