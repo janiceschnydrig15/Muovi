@@ -51,9 +51,38 @@ img {
   background-color: #dee1dd;
 }
 
-.partner {
-  
+.article {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 22px;
 }
+
+.Partner_Denner {
+
+}
+
+.Partner_Migros {
+
+}
+
+.Partner_Migrolino {
+
+}
+
+.Partner_Post {
+
+}
+
+.Partner_Volg {
+
+}
+
+.Partner_Coop {
+
+}
+
 
 
 /* Für Smatrphone */
