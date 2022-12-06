@@ -3,8 +3,7 @@ header {
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: rgb(42, 115, 142);
-  color: #ffffff;
+  background-color: rgb(255, 255, 255);
   padding: 22px;
 
 }
@@ -15,17 +14,18 @@ img {
  }
 
  .logo {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
  }
 
 .navigationsleiste{
   display: flex;
   flex-wrap: nowrap;
-  
   margin: 0px;
   padding: 0;
   list-style: none;
+  font-size:10pt;
+  font-family:helvetica bold,
 
 }
 .navigationsleiste ul {
@@ -43,7 +43,7 @@ img {
 
 .navigationsleiste li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: #36403c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
