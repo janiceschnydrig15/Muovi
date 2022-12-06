@@ -1,6 +1,7 @@
 header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(10, 87, 33);
   color: #ffffff;
   padding: 22px;
@@ -11,18 +12,25 @@ img {
   max-width: 100%;
   max-height: 100%;
  }
+
  .logo {
   height: 100px;
   width: 100px;
  }
 
 .navigationsleiste{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
   margin: 0px;
   padding: 0;
   list-style: none;
 
 }
 .navigationsleiste ul {
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
