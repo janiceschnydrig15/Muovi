@@ -33,8 +33,6 @@ img {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333; 
-
 }
 
 .navigationsleiste li {
@@ -50,5 +48,5 @@ img {
 }
 
 .navigationsleiste li a:hover {
-  background-color: #111;
+  background-color: #dee1dd;
 }
