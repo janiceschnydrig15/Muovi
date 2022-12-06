@@ -1,7 +1,5 @@
 header {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(10, 87, 33);
   color: #ffffff;
   padding: 22px;
@@ -14,6 +12,9 @@ img {
  .logo {
   height: 100px;
   width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
 
 .navigationsleiste{
