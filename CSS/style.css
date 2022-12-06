@@ -14,8 +14,8 @@ img {
  }
 
  .logo {
-  height: 50px;
-  width: 50px;
+  height: 2.6%;
+  width: 2.6%;
  }
 
 .navigationsleiste {
@@ -28,6 +28,7 @@ img {
   font-family: Arial, Helvetica, sans-serif,
 
 }
+
 .navigationsleiste ul {
   list-style-type: none;
   margin: 0;
