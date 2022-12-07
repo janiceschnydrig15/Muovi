@@ -35,10 +35,12 @@ img {
   margin: 0;
   padding: 0;
   overflow: hidden;
+
 }
 
 .navigationsleiste li {
   float: right;
+
 }
 
 .navigationsleiste li a {
@@ -51,6 +53,7 @@ img {
 
 .navigationsleiste li a:hover {
   background-color: #dee1dd;
+  border-radius: 30px;
 }
 
 #partner_logos {
@@ -125,10 +128,9 @@ ul{
 .footer-col ul li{
 	font-size: 16px;
 	text-transform: capitalize;
-	/*color: #0b0404;*/
 	text-decoration: none;
 	font-weight: 300;
-	/*color: #0a0707;*/
+	color: #000000;
 	display: block;
 	transition: all 0.3s ease;
     padding: 0px 0px 0px 0px;
@@ -137,34 +139,33 @@ ul{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    /*color: #811c1c;*/
+    color: #000000;
     text-decoration: none;
     font-weight: 300;
-    /*color: #b62d2d;*/
     display: block;
 }
 .footer-col ul li a:hover{
 	display: inline-block;
 	position: relative;
-	/*color: #D32F2F;*/
+	color: #577960;
   }
 
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	/*background-color: rgba(255,255,255,0.2);*/
-	margin:0 10px 10px 0;
+	background-color: #fffbf8;
+	margin:0 20px 20px 0;
 	text-align: center;
 	line-height: 40px;
-	border-radius: 10%;
-	/*color: #0bb8e7;*/
+	border-radius: 60%;
+	color: #000000;
 	transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover{
-	/*color: #24262b;*/
-	/*background-color: #4755d1;*/
+	color: #fffbf8;
+	background-color: #577960;
 }
 
 @media(max-width: 767px){
