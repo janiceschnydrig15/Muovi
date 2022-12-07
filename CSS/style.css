@@ -52,31 +52,31 @@ img {
   background-color: #dee1dd;
 }
 
-.partner {
+.partner_logos {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  align-content: space-between;
   align-items: center;
   padding: 22px;
   height: 30%;
   width: 30%;
 }
 
-.partner ul {
+.partner_logos ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.partner li {
+.partner_logos li {
   float: right;
 }
 
-.partner li a {
+.partner_logos li a {
   display: block;
 }
+
 
 /*.Partner_Denner {
 
