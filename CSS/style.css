@@ -108,21 +108,13 @@ img {
 
 
 
-/* Für Smatrphone */
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
 
 
 
 
 
-/* Footer */
+/* Footer Start
 
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 body{
@@ -146,16 +138,17 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #1A1A1A;
+    background-color: #c54545;
     padding: 70px 0;
 }
 .footer-col{
-    width 25%;
+    width: 25%;
     padding: 0 100px;
+    
 }
 .footer-col h4{
     font-size: 18px;
-    color: #ffffff;
+    color: #dd8d8d;
     text-transform: capitalize;
     margin-bottom: 20px;
     font-weight: 500;
@@ -169,10 +162,10 @@ ul{
 .footer-col ul li{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #0b0404;
 	text-decoration: none;
 	font-weight: 300;
-	color: #ffffff;
+	color: #0a0707;
 	display: block;
 	transition: all 0.3s ease;
     padding: 0px 0px 0px 0px;
@@ -181,10 +174,10 @@ ul{
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #811c1c;
     text-decoration: none;
     font-weight: 300;
-    color: #ffffff;
+    color: #b62d2d;
     display: block;
 }
 .footer-col ul li a:hover{
@@ -202,13 +195,13 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 10%;
-	color: #ffffff;
+	color: #e91e1e;
 	transition: all 0.5s ease;
 }
 
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: #380c0c;
 }
 
 @media(max-width: 767px){
@@ -221,4 +214,18 @@ ul{
   .footer-col{
     width: 100%;
 }
+Footer Ende*/
+
+
+
+
+
+
+/* Für Smatrphone */
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
