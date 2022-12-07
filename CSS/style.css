@@ -60,8 +60,7 @@ img {
 
 #partner_logos {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  /*grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));*/
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 10em;
   align-items:center;
 }
