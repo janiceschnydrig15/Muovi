@@ -60,8 +60,9 @@ img {
 
 #partner_logos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-  gap: 2em;
+  grid-template-columns: 200px 200px 200px 200px;
+  /*grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));*/
+  gap: 10em;
   align-items:center;
 }
 
@@ -71,7 +72,6 @@ img {
   max-width: 100%;
   width: 400%;
   margin-left: 200px;
-  margin-right: 200px ;
 }
 
 
@@ -142,9 +142,8 @@ ul{
 .footer-col{
     width: 33%;
     justify-content: space-between;
-
-    
 }
+
 .footer-col h4{
     font-size: 18px;
     /*color: #dd8d8d;*/
@@ -191,7 +190,6 @@ ul{
 }
 .social-links a{
 	display: inline-block;
-  float: right;
 	height: 40px;
 	width: 40px;
 	background-color: #fffbf8;
