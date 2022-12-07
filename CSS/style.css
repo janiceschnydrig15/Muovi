@@ -6,8 +6,10 @@ header {
   background-color: #fffbf8;
   padding: 22px;
   position: fixed;
-  
+
 }
+
+
 
 img {
   max-width: 100%;
@@ -71,13 +73,32 @@ img {
 }
 
 
+#Muovi{
+margin-left: 200px;
+}
+
+#Abholdienst{
+  margin-left: 200px;
+}
+
+#Partner{
+    margin-left: 200px;
+}
+
+#Blog{
+    margin-left: 200px;
+}
+
+
+#team{
+    margin-left: 200px;
+}
 
 
 
-
-
-
-
+#Stadtbezirk_Text{
+  margin-left: 200px;
+}
 
 /*Footer Start*/
 
