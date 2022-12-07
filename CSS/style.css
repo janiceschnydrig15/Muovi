@@ -75,10 +75,6 @@ img {
 
 
 
-
-
-
-
 /*Footer Start*/
 
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
@@ -105,7 +101,7 @@ ul{
 }
 .footer{
     background-color: #724828;
-    padding: 70px 0;
+    padding: 70px 100%;
 }
 .footer-col{
     width: 33%;
@@ -133,7 +129,7 @@ ul{
 	color: #000000;
 	display: block;
 	transition: all 0.3s ease;
-    padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .footer-col ul li a{
@@ -155,7 +151,7 @@ ul{
 	height: 40px;
 	width: 40px;
 	background-color: #fffbf8;
-	margin:0 20px 20px 0;
+	margin:0px 20px 50px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 60%;
@@ -178,6 +174,8 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
 /*Footer Ende*/
 
 
