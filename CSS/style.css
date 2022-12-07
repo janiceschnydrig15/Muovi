@@ -52,24 +52,7 @@ img {
   background-color: #dee1dd;
 }
 
-.partner {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 1rem;
-}
-
-.partner_logos {
-  background: #eee;
-}
-
-.partner_logos img {
-  display: block;
-  /* Make sure max-width is added */
-  max-width: 100%;
-  width: 100%;
-}
-
-/*#partner_logos {
+#partner_logos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 1em;
