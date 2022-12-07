@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   background-color: #fffbf8;
   padding: 22px;
+  position: fixed;
   
 }
 
