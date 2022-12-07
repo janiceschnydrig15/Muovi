@@ -55,56 +55,17 @@ img {
 #partner_logos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-  gap: 1em;
+  gap: 2em;
+  align-items:center;
 }
+
 
 .partner_logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  object-fit: cover;
+  max-width: 100%;
+  width: 400%;
 }
 
-.brands__item {
-  flex: 0 0 50%;
-}
-
-@media (min-width: 700px) {
-  .brands__item {
-    flex: 0 0 33.33%;
-  }
-}
-
-@media (min-width: 1100px) {
-  .brands__item {
-    flex: 0 0 25%;
-  }
-}
-*/
-
-
-/*.Partner_Denner {
-
-}
-
-.Partner_Migros {
-
-}
-
-.Partner_Migrolino {
-
-}
-
-.Partner_Post {
-
-}
-
-.Partner_Volg {
-
-}
-
-.Partner_Coop {
-
-} */
 
 
 
