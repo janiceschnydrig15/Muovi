@@ -94,8 +94,20 @@ margin-left: 200px;
   margin-left: 200px;
 }
 
+.Kalender {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  margin-right: auto;
+  
+  gap: 100px;
+  
+}
 
-
+.Kalender_Text{
+  background-color: #ded8ce;
+  padding: 10px;
+}
 
 /*Footer Start*/
 
