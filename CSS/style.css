@@ -28,8 +28,8 @@ img {
   padding: 0;
   list-style: none;
   font: size 30pt;
-  font-family: Arial, Helvetica, sans-serif,
-
+  font-family: Arial, Helvetica, sans-serif,;
+  gap: 100px;
 }
 
 .navigationsleiste ul {
@@ -37,12 +37,10 @@ img {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
 }
 
 .navigationsleiste li {
   float: right;
-
 }
 
 .navigationsleiste li a {
@@ -51,6 +49,7 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .navigationsleiste li a:hover {
