@@ -71,6 +71,7 @@ img {
   max-width: 100%;
   width: 400%;
   margin-left: 200px;
+  margin-right: 200px ;
 }
 
 
@@ -110,7 +111,6 @@ body{
     box-sizing: border-box;
 }
 .container{
-    /*max-width: 1170px;*/
     margin:auto;
     background-color: #a3bfb5;
 }
@@ -122,12 +122,15 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #724828;
-    padding: 70px 100%;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: nowrap;
 }
+
 .footer-col{
     width: 33%;
-    padding: 0 100px;
+    justify-content: space-between;
+
     
 }
 .footer-col h4{
@@ -150,8 +153,9 @@ ul{
 	font-weight: 300;
 	color: #000000;
 	display: block;
-	transition: all 0.3s ease;
-  padding: 0px 0px 0px 0px;
+  margin-left: 200px;
+  margin-top: 20px;
+  line-height: 10px;
 }
 
 .footer-col ul li a{
@@ -168,12 +172,18 @@ ul{
 	color: #577960;
   }
 
-.footer-col .social-links a{
+.footer-folgeuns {
+  line-height: 10px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.social-links a{
 	display: inline-block;
+  float: right;
 	height: 40px;
 	width: 40px;
 	background-color: #fffbf8;
-	margin:0px 20px 50px 0;
+	margin:20px 20px 20px 0px;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 60%;
@@ -181,7 +191,7 @@ ul{
 	transition: all 0.5s ease;
 }
 
-.footer-col .social-links a:hover{
+.footer-folgeuns .social-links a:hover{
 	color: #fffbf8;
 	background-color: #577960;
 }
