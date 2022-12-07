@@ -3,7 +3,7 @@ header {
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #fffbf8;
+  background-color: #dee1dd;
   padding: 22px;
   position: fixed;
 
@@ -91,6 +91,7 @@ margin-left: 200px;
 
 #Stadtbezirk_Text{
   margin-left: 200px;
+  font-size: 20px;
 }
 
 .Kalender {
@@ -102,10 +103,20 @@ margin-left: 200px;
   
 }
 
+
+
 .Kalender_Text{
   background-color: #ded8ce;
   padding: 15px 40px;
   font-size: 40px;
+  border-radius: 30px;
+}
+
+.Stadtbezirk{
+  background-color: #ded8ce;
+  border-radius: 15px;
+  height: 30px;
+  width: 200px;
 }
 
 /*Footer Start*/
