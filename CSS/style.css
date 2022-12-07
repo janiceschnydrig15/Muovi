@@ -55,27 +55,23 @@ img {
 .partner_logos {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
-  align-items: center;
-  padding: 22px;
-  height: 30%;
-  width: 30%;
+  justify-content: right;
+
+}
+.Partner_Lists {
+  background: #fffbf8
 }
 
-.partner_logos ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.partner_logos li {
-  float: right;
-}
-
-.partner_logos li a {
+.Partner_Lists img {
   display: block;
+  max-width: 100%;
+  width: 200%;
+  object-fit: contain;
+  list-style: none;
+  mix-blend-mode: multiply;
 }
+
+
 
 
 /*.Partner_Denner {
