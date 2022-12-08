@@ -21,17 +21,18 @@ img {
  .logo {
   height: 4%;
   width: 4%;
+  margin-left: 5%;
  }
 
 .navigationsleiste {
   display: flex;
   flex-wrap: nowrap;
-  margin: 0px;
   padding: 0;
   list-style: none;
   font-size:  1.25rem;
   font-family: Arial, Helvetica, sans-serif,;
   gap: 60px;
+  
 }
 
 .navigationsleiste ul {
@@ -39,10 +40,12 @@ img {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  
 }
 
 .navigationsleiste li {
   float: right;
+  
 }
 
 .navigationsleiste li a {
@@ -52,6 +55,7 @@ img {
   padding: 6px 16px;
   text-decoration: none;
   font-size: 1.25rem;
+  
 }
 
 .navigationsleiste li a:hover {
@@ -145,7 +149,7 @@ width: 60%;
   flex-wrap: wrap;
   max-width: 100%;
   margin-right: auto;
-  gap: 10.93%;
+  gap: 4.42%;
   justify-content: center;
 }
 
@@ -155,7 +159,7 @@ width: 60%;
   font-size: 1.25rem;
   border-radius: 30px;
   text-align: justify;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .blog_1  img{
