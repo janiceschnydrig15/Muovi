@@ -135,7 +135,7 @@ width: 60%;
   flex-wrap: nowrap;
   max-width: 100%;
   margin-right: auto;
-  gap: 50px;
+  gap: 20px;
 }
 
 .blog_1 {
@@ -166,6 +166,7 @@ width: 60%;
 
 .blog_2  img{
   max-height: 400px;
+  margin-top: 40px;
 }
 
 .blog_3  img{
