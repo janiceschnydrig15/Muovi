@@ -67,7 +67,6 @@ img {
 
 .partner_logos {
   object-fit: cover;
-v
   width: 400%;
   margin-left: 200px;
 }
@@ -128,7 +127,7 @@ margin-left: 200px;
 
 .Team_Grafik{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 10em;
   align-items:center;
 }
@@ -281,5 +280,9 @@ ul{
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
+  }
+
+  .Team_Grafik{
+    grid-template-columns: repeat(2,1fr);
   }
 }
