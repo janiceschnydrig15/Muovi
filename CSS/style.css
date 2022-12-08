@@ -131,6 +131,8 @@ width: 60%;
   grid-template-columns: repeat(3,1fr);
   gap: 10em;
   align-items:center;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 /*Blog*/
