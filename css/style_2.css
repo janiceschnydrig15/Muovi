@@ -12,11 +12,14 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     background-color: #dee1dd;
-    padding: 22px 7%;
+    padding: 22px 15%;
     position: fixed;
     z-index: 100;
   }
   
+  .Blog_Titel{
+    font-size: 2.5rem;
+  }
   
   img {
     max-width: 100%;
@@ -81,6 +84,7 @@ header {
     margin-right: auto;
     gap: 4.42%;
     justify-content: center;
+    margin-top: 100px;
   }
   
   .blog_1, .blog_2, .blog_3 {
