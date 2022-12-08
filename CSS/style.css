@@ -68,7 +68,7 @@ img {
 
 .partner_logos {
   object-fit: cover;
-  max-width: 100%;
+  max-width: 80%;
   width: 400%;
   margin-left: 200px;
 }
