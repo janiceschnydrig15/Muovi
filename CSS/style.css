@@ -200,7 +200,7 @@ ul{
 .footer-col ul li a:hover{
 	display: inline-block;
 	position: relative;
-	color: #577960;
+	color: #a3bfb5;
   }
 
 .footer-folgeuns {
@@ -223,7 +223,7 @@ ul{
 
 .footer-folgeuns .social-links a:hover{
 	color: #fffbf8;
-	background-color: #577960;
+	background-color: #a3bfb5;
 }
 
 @media(max-width: 767px){
