@@ -9,7 +9,7 @@ header {
   background-color: #dee1dd;
   padding: 22px 7%;
   position: fixed;
-
+  z-index: 100;
 }
 
 
@@ -76,7 +76,12 @@ margin: 0 20%;
 width: 60%;
 }
 
-
+/*Video*/
+video {
+  display: flex;
+  margin-right: auto;
+  max-width: 100%;
+}
 
 /*Abholdienst Kalender*/
 .Kalender {
@@ -84,6 +89,7 @@ width: 60%;
   flex-wrap: nowrap;
   margin-right: auto;
   gap: 70px;
+
   
 }
 
@@ -160,6 +166,7 @@ width: 60%;
   border-radius: 30px;
   text-align: justify;
   max-width: 350px;
+  margin-bottom: 30px;
 }
 
 .blog_1  img{
