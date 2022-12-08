@@ -133,9 +133,9 @@ width: 60%;
 .blog {
   display: flex;
   flex-wrap: nowrap;
-  max-width: 80%;
+  max-width: 100%;
   margin-right: auto;
-  gap: 150px;
+  gap: 50px;
 }
 
 .blog_1 {
@@ -152,14 +152,24 @@ width: 60%;
   border-radius: 30px;
   text-align: justify;
 }
+.blog_3 {
+  background-color: #ded8ce;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  text-align: justify;
+}
 
 .blog_1  img{
   max-height: 400px;
-  }
+}
 
 .blog_2  img{
+  max-height: 400px;
+}
 
-max-height: 400px;
+.blog_3  img{
+  max-height: 400px;
 }
 
 
