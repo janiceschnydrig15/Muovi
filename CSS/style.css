@@ -10,7 +10,7 @@ header {
 }
 
 
-
+/*header*/
 img {
   max-width: 100%;
   max-height: 100%;
@@ -67,11 +67,12 @@ img {
 
 .partner_logos {
   object-fit: cover;
-  max-width: 80%;
+v
   width: 400%;
   margin-left: 200px;
 }
 
+/*Elemente mit Abstand zu Rand*/
 
 #Muovi{
 margin-left: 200px;
@@ -94,6 +95,7 @@ margin-left: 200px;
   font-size: 20px;
 }
 
+/*Abholdienst Kalender*/
 .Kalender {
   display: flex;
   flex-wrap: nowrap;
@@ -104,13 +106,14 @@ margin-left: 200px;
 }
 
 
-
 .Kalender_Text{
   background-color: #ded8ce;
   padding: 15px 40px;
   font-size: 40px;
   border-radius: 30px;
 }
+
+/*Abholdienst Suchfunktion*/
 
 .Stadtbezirk{
   background-color: #ded8ce;
@@ -121,11 +124,39 @@ margin-left: 200px;
   font-size: 1.25rem;
 }
 
+/*Team*/
+
 .Team_Grafik{
   display: grid;
   justify-content: space-around;
   grid-row: 2;
   grid-column: 3
+}
+
+/*Blog*/
+
+.blog {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 200px;
+  max-width: 80%;
+  margin-right: auto;
+  gap: 150px;
+}
+
+.blog_1 {
+  background-color: #ded8ce;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  text-align: justify;
+}
+.blog_2 {
+  background-color: #ded8ce;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  text-align: justify;
 }
 
 
