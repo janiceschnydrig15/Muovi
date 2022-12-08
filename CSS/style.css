@@ -59,7 +59,8 @@ img {
 
 #partner_logos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
   gap: 10em;
   align-items:center;
 }
