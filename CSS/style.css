@@ -157,8 +157,14 @@ margin-left: 200px;
   border-radius: 30px;
   text-align: justify;
 }
+
+.blog_1  img{
+  max-height: 400px;
+  }
+
 .blog_2  img{
-align-items: center;
+
+max-height: 400px;
 }
 
 
