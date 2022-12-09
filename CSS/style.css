@@ -21,12 +21,13 @@ img {
  .logo {
   height: 4%;
   width: 4%;
+  min-height: 50%;
   
  }
 
 .navigationsleiste {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 0;
   list-style: none;
   font-size:  1.25rem;
