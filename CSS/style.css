@@ -119,7 +119,10 @@ video {
 
 /*Partner*/
 
-
+.partner{
+  background-color: #c3e6d9;
+  
+}
 
 #partner_logos {
   display: grid;
