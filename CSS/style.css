@@ -202,9 +202,11 @@ video {
   text-align: justify;
   max-width: 350px;
   margin-bottom: 30px;
+  flex: 33%;
+
 }
 
-.blog_1  img{
+.blog_1  img, .blog_3 img{
   max-height: 400px;
   max-width: 100%;
 }
@@ -215,10 +217,6 @@ video {
   margin-top: 40px;
 }
 
-.blog_3  img{
-  max-height: 400px;
-  max-width: 100%;
-}
 
 .Blog_Link{
   font-size: 1.25rem;
@@ -228,7 +226,6 @@ video {
   text-decoration: none;
   padding: 15px;
   text-align: center;
-  
 }
 
 /*Footer Start*/
@@ -350,7 +347,7 @@ ul{
 
 @media only screen and (max-width: 1050px) {
   .logo {
-    width: 60px;
+    height: 60px;
   }
   .navigationsleiste{
     font-size: 1rem;
@@ -359,14 +356,46 @@ ul{
   .navigationsleiste li a {
     font-size: 1rem;
   }
+  .Kalender {
+    gap: 40px;
+  }
+  .Kalender_Text{
+    font-size: 2.2rem;
+  }
+}
+
+
+/*Übergang*/
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    height: 55px;
+  }
+  .navigationsleiste{
+    font-size: 0.85rem;
+    gap: 5px;
+  }
+  .navigationsleiste li a {
+    font-size: 0.85rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .Kalender {
+    gap: 30px;
+  }
+  .Kalender_Text{
+    font-size: 1.25rem;
+    padding: 15px 30px;
+  }
 }
 
 /* Für Smartphone */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 
   .logo {
-    width: 20px;
+    height: 50px;
   }
   
   body {
@@ -379,18 +408,43 @@ ul{
   .navigationsleiste {
     font-size: 0.75rem;
     gap: 1px;
-    margin-bottom: 20px;
+    padding: 5px 7%;
   }
 
   .navigationsleiste li a{
     font-size: 0.75rem;
-    padding: 1px 10px;
+    padding: 1px 7px;
   }
-
+  h1 {
+    font-size: 1.5rem;
+  }
+  .Kalender {
+    gap: 20px;
+  }
+  .Kalender_Text{
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
   #partner_logos {
-    
     grid-template-columns: repeat(2,1fr);
-    
+  }
+  .blog_1, .blog_2, .blog_3 {
+    flex: 100%;
+    font-size: smaller;
+    padding: 1px 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .blog_2 {
+    margin-top: 20px;
+  }
+  .blog_1  img, .blog_3  img{
+    height:50%;
+  }
+  .blog_2  img{
+    max-height: 400px;
+    max-width: 100%;
+    margin-top: 40px;
   }
 }
 
