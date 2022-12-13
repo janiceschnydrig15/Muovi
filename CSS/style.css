@@ -165,13 +165,15 @@ video {
 
 .Partner_Container{
   width: 100vw;
-  margin-left: -20vw;
-  
+  margin-left: -20vw; 
 }
 
 .Welle_Partner_oben{
 margin-top: 1rem;
 }
+.Welle_Partner_unten{
+  margin-top: -0.4rem;
+  }
 
 /*Team*/
 
