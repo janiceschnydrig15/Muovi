@@ -1,5 +1,9 @@
 
-
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+  }
 
 
 /*header*/
@@ -70,43 +74,71 @@ header {
   }
   
   
-  /*Main*/
+/*Main*/
 
+.main{
+    margin: 0 20vw;
+    width: 60vw;
+    }
 
-/*Blog*/
+/*Q&A*/
 
-.blog {
+/* .frage_antwort{
+    width: 100%;
+    height: 100vh;
+    background-color: #36403c;
+    color: #ffffff;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin-right: auto;
-    gap: 4.42%;
+    align-items: center;
     justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .blog_1, .blog_2, .blog_3 {
-    background-color: #ded8ce;
-    padding: 15px 40px;
+} */
+
+.frage_antwort{
+   
+    width: 100%;
+    max-width: 80rem;
+    padding: 10rem 1.5rem;
+}
+
+.accordion_item{
+    background-color: #36403c;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.accordion_link{
     font-size: 1.25rem;
-    border-radius: 30px;
-    text-align: justify;
-    max-width: 350px;
-    margin-bottom: 30px;
-  }
-  
-  .blog_1  img{
-    max-height: 400px;
-  }
-  
-  .blog_2  img{
-    max-height: 400px;
-    margin-top: 40px;
-  }
-  
-  .blog_3  img{
-    max-height: 400px;
-  }
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #36403c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion_link i{
+    color: #a3bfb5;
+    padding: 0.5rem;
+}
+
+.accordion- link . ion -md-remover{
+display: none;
+}
+
+.antwort{
+    /*max-height: 0;
+    overflow: hidden;*/
+    position: relative;
+    background-color: #a3bfb5
+}
+
+.antwort::before{
+    content: "";
+    position: absolute;
+}
 
   /*Footer Start*/
 
