@@ -142,13 +142,14 @@ video {
 }
 .partner h1{
   margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 #partner_logos {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3,1fr);
-  gap: 10em;
+  gap: 5vw;
   align-items:center;
   
 }
@@ -443,6 +444,7 @@ ul{
   }
   #partner_logos {
     grid-template-columns: repeat(2,1fr);
+    gap: 10vw;
   }
   .blog_1, .blog_2, .blog_3 {
     flex: 100%;
