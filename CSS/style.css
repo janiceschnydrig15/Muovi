@@ -468,6 +468,7 @@ ul{
     margin-left: 100px;
     margin-top: 10px;
     line-height: 5px;
+    display: none;
   }
   .footer-col ul li a{
     font-size: 0.6rem;
