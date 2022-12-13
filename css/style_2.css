@@ -15,6 +15,7 @@ header {
     padding: 22px 15%;
     position: fixed;
     z-index: 100;
+    width: 100%;
   }
   
   .Blog_Titel{
@@ -22,13 +23,12 @@ header {
   }
   
   img {
-    max-width: 100%;
     max-height: 100%;
    }
   
    .logo {
-    height: 4%;
-    width: 4%;
+    height: 80px;
+    
     
    }
   
@@ -219,3 +219,109 @@ ul{
 }
 
 /*Footer Ende*/
+
+
+/*Ipad*/
+
+@media only screen and (max-width: 1050px) {
+  
+  
+  .navigationsleiste{
+    font-size: 1rem;
+    gap: 10px;
+  }
+  .navigationsleiste li a {
+    font-size: 1rem;
+  }
+  
+   
+}
+
+
+/*Übergang*/
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    height: 55px;
+  }
+  .navigationsleiste{
+    font-size: 0.85rem;
+    gap: 5px;
+  }
+  .navigationsleiste li a {
+    font-size: 0.85rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  
+  .footer-col, .footer-col_2{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+/* Für Smartphone */
+
+@media only screen and (max-width: 650px) {
+
+  .logo {
+    height: 50px;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+
+  .navigationsleiste {
+    font-size: 0.75rem;
+    gap: 1px;
+    padding: 5px 7%;
+  }
+
+  .navigationsleiste li a{
+    font-size: 0.75rem;
+    padding: 1px 7px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+.footer {
+  flex-wrap: nowrap;
+}
+  .footer-col h4, .footer-col_2 h4{
+    font-size: 0.6rem;
+  }
+  .footer-col_2 {
+    display: none;
+  }
+  .footer-col ul li, .footer-col_2 ul li{
+    font-size: 0.6rem;
+    margin-left: 100px;
+    margin-top: 10px;
+    line-height: 5px;
+  }
+  .footer-col ul li a, .footer-col_2 ul li a{
+    font-size: 0.6rem;
+  }
+  .footer-folgeuns{
+    font-size: 1rem;
+    margin-left: 100px;
+    margin-top: 20px;
+    line-height: 10px;
+  }
+  .social-links a{
+    height: 20px;
+    width: 20px;
+    margin:10px 10px 10px 0px;
+    line-height: 20px;
+    border-radius: 60%;
+    
+  }
+  .footer-col {
+    margin-top: 15px;
+  }
+}
+
+
