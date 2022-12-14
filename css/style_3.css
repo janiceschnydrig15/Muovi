@@ -114,6 +114,10 @@ section{
     padding: 0 1.5rem;
 }
 
+.accordion{
+    margin-top: 15rem;
+}
+
 .accordion-item{
     background-color: #bdc6b4;
     border-radius: .4rem;
@@ -190,6 +194,7 @@ body{
     line-height: 1.5;
     font-family: 'Helvetica Neue', sans-serif;
 }
+
 *{
     margin:0;
     padding:0;
@@ -206,6 +211,12 @@ body{
 ul{
     list-style: none;
 }
+
+footer{
+    position: relative;
+    bottom: 0;
+}
+
 .footer{
  display: flex;
  justify-content: space-between;
