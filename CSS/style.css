@@ -229,12 +229,26 @@ margin-top: 1rem;
 
 
 .Blog_Link{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+.Blog_Link div {
+  width: 300px;
   font-size: 1.25rem;
   border-radius: 7rem;
-  color: #ffffff;
-  text-decoration: none;
+ 
   padding: 15px;
   background-color: #577960;
+  text-align: center;
+  
+}
+.Blog_Link a{
+  justify-content: center;
+  width: 30%;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*Footer Start*/

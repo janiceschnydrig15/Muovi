@@ -72,8 +72,12 @@ header {
   }
   
   
-  /*Main*/
+/*Main*/
 
+.main{
+  margin: 0 20vw;
+  width: 60vw;
+  }
 
 /*Blog*/
 
@@ -94,7 +98,9 @@ header {
     border-radius: 30px;
     text-align: justify;
     max-width: 350px;
+    margin-top: 50px;
     margin-bottom: 30px;
+    flex: 33%;
   }
   
   .blog_1  img{
@@ -103,11 +109,13 @@ header {
   
   .blog_2  img{
     max-height: 400px;
+    max-width: 100%;
     margin-top: 40px;
   }
   
   .blog_3  img{
     max-height: 400px;
+    max-width: 100%;
   }
 
   /*Footer Start*/
