@@ -309,9 +309,6 @@ ul{
     .accordion-link{
       font-size: 1.5rem;
   }
-    .container_QA h3{
-      font-size: 1rem;
-  }
     .answer p{
       font-size: 1.25rem;
   }
@@ -340,16 +337,13 @@ ul{
     .footer-col, .footer-col_2{
       width: 50%;
       margin-bottom: 30px;
-  }
-  .accordion-link{
+    }
+    .accordion-link{
     font-size: 1.25rem;
-}
-  .container_QA h3{
+    }
+    .answer p{
     font-size: 1rem;
-}
-  .answer p{
-    font-size: 1rem;
-}
+    }
   
   }
   
@@ -379,9 +373,9 @@ ul{
       font-size: 1.5rem;
     }
   
-  .footer {
-    flex-wrap: nowrap;
-  }
+    .footer {
+      flex-wrap: nowrap;
+    }
     .footer-col h4, .footer-col_2 h4{
       font-size: 0.6rem;
     }
