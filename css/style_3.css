@@ -213,8 +213,9 @@ ul{
 }
 
 footer{
-    position: relative;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .footer{
@@ -223,12 +224,12 @@ footer{
  flex-wrap: nowrap;
 }
 
-.footer-col{
+.footer-col, .footer-col_2{
     width: 33%;
     justify-content: space-between;
 }
 
-.footer-col h4{
+.footer-col h4, .footer-col_2{
     font-size: 1rem;
     /*color: #dd8d8d;*/
     text-transform: capitalize;
@@ -241,8 +242,12 @@ footer{
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-.footer-col ul li{
-	font-size: 1rem;
+
+.footer-col_2 ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li, .footer-col_2 ul li{
+	font-size: 1.5rem;
 	text-transform: capitalize;
 	text-decoration: none;
 	font-weight: 300;
@@ -253,15 +258,15 @@ footer{
   line-height: 10px;
 }
 
-.footer-col ul li a{
-    font-size: 1rem;
+.footer-col ul li a, .footer-col_2 ul li a{
+    font-size: 1.5rem;
     text-transform: capitalize;
     color: #000000;
     text-decoration: none;
     font-weight: 300;
     display: block;
 }
-.footer-col ul li a:hover{
+.footer-col ul li a:hover, .footer-col_2 ul li a:hover{
 	display: inline-block;
 	position: relative;
 	color: #a3bfb5;
@@ -271,7 +276,9 @@ footer{
   line-height: 10px;
   margin-top: 20px;
   margin-left: 200px;
+  font-size: 1.5rem;
 }
+
 .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -384,8 +391,8 @@ footer{
       font-size: 1.5rem;
     }
   
-    .footer {
-      flex-wrap: nowrap;
+   .footer {
+    flex-wrap: nowrap;
     }
     .footer-col h4, .footer-col_2 h4{
       font-size: 0.6rem;
@@ -403,7 +410,7 @@ footer{
       font-size: 0.6rem;
     }
     .footer-folgeuns{
-      font-size: 1rem;
+      font-size: 0.8rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 10px;
