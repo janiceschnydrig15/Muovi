@@ -9,6 +9,8 @@
 
 /*header*/
 
+
+
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -82,26 +84,49 @@ header {
 
 /*Q&A*/
 
-
-.frage_antwort{
-   
-    width: 100%;
-    max-width: 80rem;
-    padding: 10rem 1.5rem;
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
-.accordion_item{
-    background-color: #36403c;
-    border-radius: 0.4rem;
+html{
+    font-family: Archivo; 
+    font-size: 10px;
+    box-sizing: border-box;
+}
+/*section used for centering process*/
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.container{
+    width: 80%;
+    max-width: 991;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item{
+    background-color: #bdc6b4;
+    border-radius: .4rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    box-shadow: .5rem 2px .5rem #c9c9c9;
 }
 
-.accordion_link{
-    font-size: 1.25rem;
-    color: #ffffff;
+.accordion-link{
+    font-size: 30px;
+    color: #1f4304;
     text-decoration: none;
-    background-color:#36403c;
+    background-color: #bdc6b4;
     width: 100%;
     display: flex;
     align-items: center;
@@ -109,53 +134,53 @@ header {
     padding: 1rem 0;
 }
 
-.accordion_link i{
-    color: #577960;
-    padding: 0.5rem;
+.minus{
+    display: none;
 }
 
-.accordion_link .ion-md-remover{
-display: none;
-}
-
-.antwort{
+.answer{
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #577960;
-    color: #ffffff;
-    transition: max-height 650ms;
+    background-color: #a7af9f;
+   
+
 }
 
-.antwort::before{
+.answer::before{
     content: "";
     position: absolute;
-    width: 0.6rem;
-    height: 100%;
-    background-color:#dee1dd;
-    transform: translateY(0%);
-    color: #ffffff;
-    font-size: 1.25rem;
+    width: .6rem;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
-.antwort p{
-    color: #dee1dd;
-    font-size: 1.25rem;
+.answer p{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
     padding: 2rem;
-
 }
 
-.accordion_item:target .antwort{
+.accordion-item:target .answer{
     max-height: 20rem;
 }
-
-.accordion_item:target .accordion_link .ion-md-add{
-    display: none
+.accordion-item:target .accordion-link .plus{
+    display: none;
 }
-
-.accordion_item:target .accordion_link .ion-md-remover{
+.accordion-item:target .accordion-link .minus{
     display: block;
+
 }
+.container h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
 
 
   /*Footer Start*/
