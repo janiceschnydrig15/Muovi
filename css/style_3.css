@@ -107,7 +107,7 @@ section{
     padding-top: 10%;
 }
 
-.container{
+.container_QA{
     width: 80%;
     max-width: 991;
     margin: 0 auto;
@@ -174,7 +174,7 @@ section{
     display: block;
 
 }
-.container h3{
+.container_QA h3{
     font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 10%;
