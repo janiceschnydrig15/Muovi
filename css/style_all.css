@@ -70,6 +70,7 @@
 
   .Blog_Titel{
     font-size: 2.5rem;
+    margin-right: 2rem;
   }
   
   
@@ -90,6 +91,11 @@
   main{
   margin: 0 20vw;
   width: 60vw;
+  }
+
+  .main{
+    margin: 0 20vw;
+    width: 60vw;
   }
   
   /*Video*/
@@ -288,17 +294,17 @@
     flex: 33%;
 }
   
-.blog_untersiete_1  img{
+.blog_unterseite_1  img{
     max-height: 400px;
 }
   
-.blog_untersiete_2  img{
+.blog_unterseite_2  img{
     max-height: 400px;
     max-width: 100%;
     margin-top: 40px;
 }
   
-.blog_untersiete_3  img{
+.blog_unterseite_3  img{
     max-height: 400px;
     max-width: 100%;
 }
