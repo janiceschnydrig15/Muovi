@@ -46,7 +46,10 @@ img {
     justify-content: center;
     margin-top: 4rem;
   }
-  
+.blog h2{  
+    margin-top: 2rem;
+}
+
 .blog_1, .blog_2, .blog_3 {
     background-color: #ded8ce;
     padding: 15px 40px;
