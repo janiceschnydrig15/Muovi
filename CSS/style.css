@@ -97,6 +97,11 @@ video {
   max-width: 100%;
 }
 
+#Muovi{
+  margin-top: -10rem;
+  opacity: 0;
+}
+
 /*Abholdienst Kalender*/
 .Kalender {
   display: flex;
