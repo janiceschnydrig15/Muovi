@@ -36,9 +36,8 @@ img {
   padding: 0;
   list-style: none;
   font-size:  1.25rem;
-  font-family: Arial, Helvetica, sans-serif,;
-  gap: 60px;
-  
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 3.75rem;
 }
 
 .navigationsleiste ul {
@@ -46,12 +45,10 @@ img {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
 }
 
 .navigationsleiste li {
-  float: right;
-  
+  float: right; 
 }
 
 .navigationsleiste li a {
@@ -61,7 +58,6 @@ img {
   padding: 6px 16px;
   text-decoration: none;
   font-size: 1.25rem;
-  
 }
 
 
