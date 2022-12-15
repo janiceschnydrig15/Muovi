@@ -30,40 +30,7 @@ img {
     height: 80px;
 }
   
-.navigationsleiste {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0;
-    list-style: none;
-    font-size:  1.25rem;
-    font-family: Arial, Helvetica, sans-serif,;
-    gap: 60px;
-}
-  
-.navigationsleiste ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-  
-.navigationsleiste li {
-    float: right;  
-}
-  
-.navigationsleiste li a {
-    display: block;
-    color: #36403c;
-    text-align: center;
-    padding: 6px 16px;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
-  
-.navigationsleiste li a:hover {
-    background-color: #a3bfb5;
-    border-radius: 30px;
-}
+
   
   
 /*Main*/
@@ -82,7 +49,7 @@ img {
     margin-right: auto;
     gap: 4.42%;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 4rem;
   }
   
 .blog_1, .blog_2, .blog_3 {
@@ -223,21 +190,7 @@ ul{
 /*Footer Ende*/
 
 
-/*Ipad*/
 
-@media only screen and (max-width: 1050px) {
-  
-  
-  .navigationsleiste{
-    font-size: 1rem;
-    gap: 10px;
-  }
-  .navigationsleiste li a {
-    font-size: 1rem;
-  }
-  
-   
-}
 
 
 /*Übergang*/
@@ -246,13 +199,7 @@ ul{
   .logo {
     height: 55px;
   }
-  .navigationsleiste{
-    font-size: 0.85rem;
-    gap: 5px;
-  }
-  .navigationsleiste li a {
-    font-size: 0.85rem;
-  }
+  
   h1 {
     font-size: 1.7rem;
   }
@@ -275,16 +222,6 @@ ul{
     background-color: lightblue;
   }
 
-  .navigationsleiste {
-    font-size: 0.75rem;
-    gap: 1px;
-    padding: 5px 7%;
-  }
-
-  .navigationsleiste li a{
-    font-size: 0.75rem;
-    padding: 1px 7px;
-  }
   h1 {
     font-size: 1.5rem;
   }
