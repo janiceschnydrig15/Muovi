@@ -37,21 +37,22 @@ img {
 
 /*Blog*/
 
-.blog {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin-right: auto;
-    gap: 4.42%;
-    justify-content: center;
-    margin-top: 4rem;
-  }
-.blog h2{  
+.blog_unterseite{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-right: auto;
+  gap: 4%;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.blog_unterseite h2{  
     margin-top: 2rem;
     margin-bottom: 1remd;
 }
 
-.blog_1, .blog_2, .blog_3 {
+.blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
     background-color: #ded8ce;
     padding: 15px 40px;
     font-size: 1.25rem;
@@ -63,17 +64,17 @@ img {
     flex: 33%;
 }
   
-.blog_1  img{
+.blog_untersiete_1  img{
     max-height: 400px;
 }
   
-.blog_2  img{
+.blog_untersiete_2  img{
     max-height: 400px;
     max-width: 100%;
     margin-top: 40px;
 }
   
-.blog_3  img{
+.blog_untersiete_3  img{
     max-height: 400px;
     max-width: 100%;
 }
