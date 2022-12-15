@@ -17,11 +17,11 @@
     position: fixed;
     width: 100%;
     z-index: 100;
+    top: 0;
   }
   
   
   img {
-  
     max-height: 100%;
    }
   
@@ -71,7 +71,15 @@
   .Blog_Titel{
     font-size: 2.5rem;
     margin-right: 2rem;
+    margin-top: 0rem;
   }
+
+  /*Header Q&A*/
+  .QA_Titel{
+    font-size: 4.2rem;
+    margin-right: 5rem;
+    margin-top: 0rem;
+   }
   
   
   /*Main*/
@@ -308,6 +316,94 @@
     max-height: 400px;
     max-width: 100%;
 }
+
+  /*Q&A Unterseite*/
+
+  *,
+  *::before,
+  *::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+  }
+  
+  html{
+      font-family: Arial, Helvetica, sans-serif; 
+      font-size: 10px;
+      box-sizing: border-box;
+  }
+
+  section{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10%;
+  }
+  
+  .container_QA{
+      width: 80%;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+  }
+  
+  .accordion{
+      margin-top: 15rem;
+  }
+  
+  .accordion-item{
+      background-color: #577960;
+      border-radius: .4rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 2.5rem;
+  }
+  
+  .accordion-link{
+      font-size: 30px;
+      color: #fffbf8;
+      text-decoration: none;
+      background-color: #577960;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+  }
+  
+  .minus{
+      display: none;
+  }
+  
+  .answer{
+      max-height: 0;
+      overflow: hidden;
+      position: relative;
+      background-color: #dee1dd2d;
+      border-radius: 1rem;
+  }
+  .answer p{
+      color:#fffbf8;
+      font-size: 1.4rem;
+      padding: 2rem;
+  }
+  .accordion-item:target .answer{
+      max-height: 20rem;
+  }
+  .accordion-item:target .accordion-link .plus{
+      display: none;
+  }
+  .accordion-item:target .accordion-link .minus{
+      display: block;
+  
+  }
+  .container_QA h3{
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      margin-bottom: 10%;
+      text-align: center;
+  }
   
   /*Footer Start*/
   
@@ -325,6 +421,7 @@
   .row{
       display: flex;
       flex-wrap: wrap;
+      bottom: 0;
   }
   ul{
       list-style: none;
