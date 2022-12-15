@@ -92,9 +92,11 @@
   }
 
   .Pfeil {
-    height: 80px;
-    margin-top: -5rem;
+    height: 5vw;
+    margin-top: -50rem;
+    margin-bottom: 30rem;
     max-width: 100%;
+    margin-left: 50vw;
   }
   
   h1 {
