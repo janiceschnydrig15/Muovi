@@ -629,7 +629,12 @@ body{
       margin-bottom: 30px;
       width: 33%;
     }
-  
+    .blog_1, .blog_2, .blog_3 {
+      width: 40vw;
+    }
+    .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
+      width: 40vw;
+    }
   }
   
   
