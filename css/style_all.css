@@ -453,7 +453,12 @@
     margin-top: 3rem;
   }
 
-  .QA_Footer
+  .QA_Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+  }
   
 
   .footer-col, .footer-col_2{
@@ -468,7 +473,6 @@
     margin-bottom: 20px;
     font-weight: 500;
     position: relative;
-  
   }
   
   .footer-col ul li:not(:last-child){
