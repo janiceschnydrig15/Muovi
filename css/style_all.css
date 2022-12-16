@@ -317,8 +317,6 @@ body{
     margin-top: 15rem;
   }
 
-  
-
   .blog_unterseite h2{  
     margin-top: 10rem;
     margin-bottom: 1rem;
@@ -330,7 +328,7 @@ body{
     font-size: 2rem;
     border-radius: 30px;
     text-align: justify;
-    width: 20vw;
+    max-width: 350px;
     flex: 33%;
 }
   
@@ -629,12 +627,7 @@ body{
       margin-bottom: 30px;
       width: 33%;
     }
-    .blog_1, .blog_2, .blog_3 {
-      width: 30vw;
-    }
-    .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
-      width: 30vw;
-    }
+   
   }
   
   
@@ -703,6 +696,7 @@ body{
       margin-bottom: 20px;
       margin-top: 30px;
     }
+
     .blog_1  img, .blog_3  img{
       height:50%;
     }
@@ -719,6 +713,11 @@ body{
     .Blog_Link div{
       font-size: 2rem;
     }
+
+    .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {  
+        width: 10%;
+    }
+
     .footer-col h4, .footer-col_2 h4{
       font-size: 1.2rem;
     }
@@ -828,6 +827,13 @@ body{
     .Blog_Link div{
       font-size: 1.5rem;
     }
+    .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {  
+        width: 50vw;
+        flex: none;
+    }
+
+
+
     .footer-col{
       width: 20rem;
     }
