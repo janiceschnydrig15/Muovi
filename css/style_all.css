@@ -588,32 +588,32 @@ body{
     }
     .Team_Grafik{
       gap: 2em;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
     h1 {
       font-size: 3rem;
     }
     h3 {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
     .Team_Grafik p{
-      font-size: 1.4rem;
+      font-size: 1.8rem;
     }
   
     .footer-col h4, .footer-col_2 h4{
-      font-size: 1.4rem;
+      font-size: 1.8rem;
     }
     .footer-col ul li, .footer-col_2 ul li{
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 5px;
     }
     .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 1.4rem;
+      font-size: 1.8rem;
     }
     .footer-folgeuns{
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       margin-left: 80px;
       margin-top: 20px;
       line-height: 10px;
@@ -716,7 +716,9 @@ body{
       margin-bottom: 5px;
     }
 
-
+    .Blog_Link div{
+      font-size: 2rem;
+    }
     .footer-col h4, .footer-col_2 h4{
       font-size: 1.2rem;
     }
@@ -822,6 +824,9 @@ body{
     .blog_1 h2, .blog_2 h2, .blog_3 h2 {
       margin-top: 15px;
       margin-bottom: 5px;
+    }
+    .Blog_Link div{
+      font-size: 1.5rem;
     }
     .footer-col{
       width: 20rem;
