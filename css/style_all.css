@@ -130,6 +130,11 @@ body{
     margin: 0 20vw;
     width: 60vw;
   }
+
+  .main_blog{
+    margin: 0 15vw;
+    width: 70vw; 
+  }
   
   /*Video*/
   video {
@@ -241,7 +246,7 @@ body{
     display: flex;
     flex-wrap: nowrap;
     margin-right: auto;
-    gap: 4%;
+    gap: 2vw;
     justify-content: center;
     margin-bottom: 3rem;
   }
@@ -252,9 +257,7 @@ body{
     font-size: 2rem;
     border-radius: 30px;
     text-align: justify;
-    max-width: 350px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    width: 20vw;
     flex: 33%;
   
   }
@@ -309,13 +312,15 @@ body{
     flex-wrap: wrap;
     max-width: 100%;
     margin-right: auto;
-    gap: 4%;
+    gap: 2vw;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 
+  
+
   .blog_unterseite h2{  
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-bottom: 1rem;
 }
 
@@ -325,9 +330,7 @@ body{
     font-size: 2rem;
     border-radius: 30px;
     text-align: justify;
-    max-width: 350px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    width: 20vw;
     flex: 33%;
 }
   
@@ -768,9 +771,8 @@ body{
       margin-top: 15px;
       margin-bottom: 5px;
     }
-    .footer {
-      flex-wrap: nowrap;
-    }
+
+
     .footer-col h4, .footer-col_2 h4{
       font-size: 1.2rem;
     }
