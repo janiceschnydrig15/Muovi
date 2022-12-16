@@ -452,8 +452,10 @@
   footer{
     margin-top: 3rem;
   }
+
+  .QA_Footer
   
-  
+
   .footer-col, .footer-col_2{
     width: 33%;
     justify-content: space-between;
