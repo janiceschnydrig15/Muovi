@@ -571,11 +571,11 @@ body{
     }
 
     .navigationsleiste{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     gap: 10px;
     }
     .navigationsleiste li a {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     }
     .Kalender {
     gap: 40px;
@@ -584,14 +584,14 @@ body{
     font-size: 3rem;
     }
     .Team_Grafik{
-    gap: 2em;
-    font-size: 1rem;
+      gap: 2em;
+      font-size: 1.4rem;
     }
     h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     h3 {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
     .Team_Grafik p{
       font-size: 1.4rem;
@@ -607,19 +607,19 @@ body{
       line-height: 5px;
     }
     .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
     .footer-folgeuns{
       font-size: 1.4rem;
-      margin-left: 100px;
+      margin-left: 80px;
       margin-top: 20px;
       line-height: 10px;
     }
     .social-links a{
-      height: 20px;
-      width: 20px;
+      height: 40px;
+      width: 40px;
       margin:10px 10px 10px 0px;
-      line-height: 20px;
+      line-height: 40px;
       border-radius: 60%;
     }
     .footer-col {
@@ -633,76 +633,9 @@ body{
   /*Übergang*/
   
   @media only screen and (max-width: 900px) {
-    .logo {
-      height: 55px;
-    }
-
-    .Pfeil {
-      margin-top: -45rem;
-    }
-    .navigationsleiste{
-      font-size: 1.25rem;
-      gap: 5px;
-    }
-    .navigationsleiste li a {
-      font-size: 1.25rem;
-    }
-    h1 {
-      font-size: 2rem;
-    }
-    h3 {
-        font-size: 1.8rem;
-    }
-    .Team_Grafik p {
-      font-size: 1.2rem;
-    }
-    .Kalender {
-      gap: 30px;
-    }
-    .Kalender_Text{
-      font-size: 2rem;
-      padding: 15px 30px;
-    }
-    .footer-col h4, .footer-col_2 h4{
-      font-size: 1.25rem;
-    }
-    .footer-col_2 {
-      display: none;
-    }
-    .footer-col ul li, .footer-col_2 ul li{
-      font-size: 1.25rem;
-      margin-left: 100px;
-      margin-top: 20px;
-      line-height: 5px;
-    }
-    .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 1.25rem;
-    }
-    .footer-folgeuns{
-      font-size: 1.25rem;
-      margin-left: 100px;
-      margin-top: 20px;
-      line-height: 10px;
-    }
-    .social-links a{
-      height: 20px;
-      width: 20px;
-      margin:10px 10px 10px 0px;
-      line-height: 20px;
-      border-radius: 60%;
-    }
-    .footer-col {
-      margin-bottom: 30px;
-      width: 50%;
-    }
-  }
-  
-  /* Für Smartphone */
-  
-  @media only screen and (max-width: 650px) {
   
     .logo {
-      height: 50px;
+      height: 60px;
     }
     .Hintergund_Wasser img{
       max-height: 100%;
@@ -711,25 +644,22 @@ body{
       margin-bottom: 30rem;
     }
     .Pfeil {
-      margin-top: -42rem;
+      margin-top: -50rem;
     } 
-    body {
-      background-color: lightblue;
-    }
     .Team_Grafik{
       grid-template-columns: repeat(2,1fr);
     }
     .navigationsleiste {
-      font-size: 1.2rem;
-      gap: 1px;
-      padding: 5px 7%;
+      font-size: 1.6rem;
+      gap: 5px;
+      padding: 2px 7%;
     }
     .navigationsleiste li a{
-      font-size: 1.2rem;
-      padding: 1px 7px;
+      font-size: 1.6rem;
+      padding: 3px 7px;
     }
     h1 {
-      font-size: 1.9rem;
+      font-size: 2.3rem;
     }
     h3 {
       font-size: 1.6rem;
@@ -738,23 +668,32 @@ body{
       gap: 20px;
     }
     .Kalender_Text{
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       padding: 15px 25px;
+      border-radius: 25%;
+    }
+    .Stadtbezirk{
+      border-radius: 12px;
+      height: 35px;
+      width: 200px;
+      font-size: 1.8rem;
+    }
+    #Stadtbezirk_Text{
+      font-size: 1.8rem;
     }
     #partner_logos {
       grid-template-columns: repeat(2,1fr);
       gap: 10vw;
     }
+    .partner h1 {
+      margin-bottom: 5rem;
+    }
     .blog_1, .blog_2, .blog_3 {
       flex: 100%;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       padding: 10px 30px;
       margin-bottom: 20px;
       margin-top: 30px;
-    }
-    .blog {
-      margin-top: 1rem;
-      max-width: 90%;
     }
     .blog_1  img, .blog_3  img{
       height:50%;
@@ -771,20 +710,123 @@ body{
     .footer {
       flex-wrap: nowrap;
     }
-    .footer-col h4, .footer-col_2 h4{
-      font-size: 1.2rem;
-    }
     .footer-col_2 {
       display: none;
     }
     .footer-col ul li, .footer-col_2 ul li{
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       margin-left: 100px;
+      margin-top: 10px;
+      line-height: 10px;
+    }
+    .footer-col ul li a, .footer-col_2 ul li a{
+      font-size: 1.6rem;
+    }
+    .footer-folgeuns{
+      font-size: 1.6rem;
+      margin-left: 180px;
+      margin-top: 20px;
+      line-height: 10px;
+    }
+    .social-links a{
+      height: 35px;
+      width: 35px;
+      margin:10px 10px 10px 0px;
+      line-height: 35px;
+      border-radius: 60%;
+      flex-wrap: nowrap;
+    }
+    .footer-col {
+      margin-top: 15px;
+    }
+  }
+  
+  /* Für Smartphone */
+  
+  @media only screen and (max-width: 650px) {
+  
+    .logo {
+      height: 50px;
+    }
+    .Pfeil {
+      margin-top: -42rem;
+    } 
+    .Team_Grafik{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .navigationsleiste {
+      font-size: 1.2rem;
+      gap: 1px;
+      padding: 5px 7%;
+    }
+    .navigationsleiste li a{
+      font-size: 1.2rem;
+      padding: 1px 7px;
+    }
+    h1 {
+      font-size: 2.1rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    .Kalender {
+      gap: 20px;
+    }
+    .Kalender_Text{
+      font-size: 1.4rem;
+      padding: 15px 25px;
+      border-radius: 20%;
+    }
+    .Stadtbezirk{
+      border-radius: 12px;
+      height: 25px;
+      width: 120px;
+      font-size: 1.4rem;
+    }
+    #Stadtbezirk_Text{
+      font-size: 1.4rem;
+    }
+    #partner_logos {
+      grid-template-columns: repeat(2,1fr);
+      gap: 10vw;
+    }
+    .blog_1, .blog_2, .blog_3 {
+      flex: 100%;
+      font-size: 1.4rem;
+      padding: 10px 30px;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
+    .blog {
+      margin-top: 1.2rem;
+      max-width: 90%;
+    }
+    .blog_1  img, .blog_3  img{
+      height:50%;
+    }
+    .blog_2  img{
+      max-height: 400px;
+      max-width: 100%;
+      margin-top: 30px;
+    }
+    .blog_1 h2, .blog_2 h2, .blog_3 h2 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    .footer-col{
+      width: 20rem;
+    }
+    .footer-col h4, .footer-col_2 h4{
+      font-size: 1.2rem;
+    }
+    .footer-col ul li, .footer-col_2 ul li{
+      font-size: 1.2rem;
+      margin-left: 80px;
       margin-top: 10px;
       line-height: 5px;
     }
     .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     .footer-folgeuns{
       font-size: 1.2rem;
@@ -799,9 +841,6 @@ body{
       line-height: 20px;
       border-radius: 60%;
       flex-wrap: nowrap;
-    }
-    .footer-col {
-      margin-top: 15px;
     }
   }
   
