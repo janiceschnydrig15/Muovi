@@ -701,25 +701,25 @@
       grid-template-columns: repeat(2,1fr);
     }
     .navigationsleiste {
-      font-size: 0.9rem;
+      font-size: 1rem;
       gap: 1px;
       padding: 5px 7%;
     }
     .navigationsleiste li a{
-      font-size: 0.9rem;
+      font-size: 1rem;
       padding: 1px 7px;
     }
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
     h3 {
-      font-size: 1.25rem;
+      font-size: 1.4rem;
     }
     .Kalender {
       gap: 20px;
     }
     .Kalender_Text{
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 15px 25px;
     }
     #partner_logos {
@@ -753,22 +753,22 @@
       flex-wrap: nowrap;
     }
     .footer-col h4, .footer-col_2 h4{
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
     .footer-col_2 {
       display: none;
     }
     .footer-col ul li, .footer-col_2 ul li{
-      font-size: 0.8rem;
+      font-size: 1rem;
       margin-left: 100px;
       margin-top: 10px;
       line-height: 5px;
     }
     .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
     .footer-folgeuns{
-      font-size: 0.8rem;
+      font-size: 1rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 10px;
