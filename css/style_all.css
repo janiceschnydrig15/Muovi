@@ -1,9 +1,22 @@
+html{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10px;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Helvetica Neue', sans-serif;
+}
 
 *{
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
   }
+
+
   
   /*header*/
   
@@ -15,7 +28,7 @@
     background-color: #dee1dd;
     padding: 20px 7%;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 100;
     top: 0;
   }
@@ -98,7 +111,6 @@
     height: 5vw;
     margin-top: -60rem;
     margin-bottom: 30rem;
-    width: 100%;
     margin-left: 45vw;
   }
   
@@ -344,12 +356,6 @@
       box-sizing: inherit;
   }
   
-  html{
-      font-family: Arial, Helvetica, sans-serif; 
-      font-size: 10px;
-      box-sizing: border-box;
-  }
-
   section{
       width: 100%;
       display: flex;
@@ -431,10 +437,8 @@
   /*Footer Start*/
   
   @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
-  body{
-      line-height: 1.5;
-      font-family: 'Helvetica Neue', sans-serif;
-  }
+  
+
   
   
   .container{
@@ -457,7 +461,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100vw;
+    width: 100vw; 
   }
   
 
@@ -628,39 +632,42 @@
       margin-top: -45rem;
     }
     .navigationsleiste{
-      font-size: 0.85rem;
+      font-size: 1.2rem;
       gap: 5px;
     }
     .navigationsleiste li a {
-      font-size: 0.85rem;
+      font-size: 1.2rem;
     }
     h1 {
-      font-size: 1.7rem;
+      font-size: 2rem;
     }
+    h3 {
+        font-size: 1.8rem;
+      }
     .Kalender {
       gap: 30px;
     }
     .Kalender_Text{
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       padding: 15px 30px;
     }
     .footer-col h4, .footer-col_2 h4{
-      font-size: 0.9rem;
+      font-size: 1.25rem;
     }
     .footer-col_2 {
       display: none;
     }
     .footer-col ul li, .footer-col_2 ul li{
-      font-size: 0.9rem;
+      font-size: 1.25rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 5px;
     }
     .footer-col ul li a, .footer-col_2 ul li a{
-      font-size: 0.9rem;
+      font-size: 1.25rem;
     }
     .footer-folgeuns{
-      font-size: 1rem;
+      font-size: 1.25rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 10px;
