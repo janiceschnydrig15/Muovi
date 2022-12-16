@@ -453,11 +453,6 @@
     margin-top: 3rem;
   }
   
-  .footer{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
   
   .footer-col, .footer-col_2{
     width: 33%;
@@ -583,38 +578,35 @@
       font-size: 0.75rem;
     }
   
-    .footer {
-      flex-wrap: nowrap;
-    }
-      .footer-col h4, .footer-col_2 h4{
+    .footer-col h4, .footer-col_2 h4{
         font-size: 0.8rem;
-      }
-      .footer-col ul li, .footer-col_2 ul li{
+    }
+    .footer-col ul li, .footer-col_2 ul li{
         font-size: 0.8rem;
         margin-left: 100px;
         margin-top: 20px;
         line-height: 5px;
-      }
-      .footer-col ul li a, .footer-col_2 ul li a{
+    }
+    .footer-col ul li a, .footer-col_2 ul li a{
         font-size: 0.8rem;
-      }
-      .footer-folgeuns{
+    }
+    .footer-folgeuns{
         font-size: 1rem;
         margin-left: 100px;
         margin-top: 20px;
         line-height: 10px;
-      }
-      .social-links a{
+    }
+    .social-links a{
         height: 20px;
         width: 20px;
         margin:10px 10px 10px 0px;
         line-height: 20px;
         border-radius: 60%;
-      }
-      .footer-col {
+    }
+    .footer-col {
       margin-bottom: 30px;
       width: 33%;
-      }
+    }
   
   }
   
@@ -645,9 +637,6 @@
     .Kalender_Text{
       font-size: 1.2rem;
       padding: 15px 30px;
-    }
-    .footer {
-      flex-wrap: nowrap;
     }
       .footer-col h4, .footer-col_2 h4{
         font-size: 0.6rem;
