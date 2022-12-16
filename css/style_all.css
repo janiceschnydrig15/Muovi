@@ -701,19 +701,19 @@
       grid-template-columns: repeat(2,1fr);
     }
     .navigationsleiste {
-      font-size: 1rem;
+      font-size: 1.2rem;
       gap: 1px;
       padding: 5px 7%;
     }
     .navigationsleiste li a{
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 1px 7px;
     }
     h1 {
-      font-size: 1.6rem;
+      font-size: 1.9rem;
     }
     h3 {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
     .Kalender {
       gap: 20px;
@@ -734,7 +734,7 @@
       margin-top: 30px;
     }
     .blog {
-      margin-top: 20px;
+      margin-top: 1rem;
       max-width: 90%;
     }
     .blog_1  img, .blog_3  img{
@@ -753,13 +753,13 @@
       flex-wrap: nowrap;
     }
     .footer-col h4, .footer-col_2 h4{
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     .footer-col_2 {
       display: none;
     }
     .footer-col ul li, .footer-col_2 ul li{
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin-left: 100px;
       margin-top: 10px;
       line-height: 5px;
@@ -768,7 +768,7 @@
       font-size: 1rem;
     }
     .footer-folgeuns{
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin-left: 100px;
       margin-top: 20px;
       line-height: 10px;
