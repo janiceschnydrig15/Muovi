@@ -627,7 +627,11 @@ body{
       margin-bottom: 30px;
       width: 33%;
     }
-   
+    .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {  
+        max-width: 300px;
+        
+        
+    }
   }
   
   
@@ -715,9 +719,16 @@ body{
     }
 
     .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {  
-        width: 10%;
+        width: 10vw;
+       
     }
 
+    .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
+        margin-top: 1rem;
+    }
+    .blog_unterseite_1  img{
+        max-width: 25vw;
+    }
     .footer-col h4, .footer-col_2 h4{
       font-size: 1.2rem;
     }
@@ -832,7 +843,13 @@ body{
         flex: none;
     }
 
+    .blog_unterseite_1  img{
+        max-width: 35vw;
+    }
 
+    .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
+        margin-top: 1rem;
+    }
 
     .footer-col{
       width: 20rem;
