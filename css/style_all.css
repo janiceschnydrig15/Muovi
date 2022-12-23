@@ -535,6 +535,12 @@ body{
       color: #fffbf8;
       background-color: #a3bfb5;
   }
+
+  #footerQA{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+  }
   
   /*Footer Ende*/
   
