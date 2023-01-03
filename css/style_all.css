@@ -921,6 +921,11 @@ body{
         margin: 0 5vw;
         width: 90vw;
       }
+
+      .main_blog{
+        margin: 0 10vw;
+        width: 80vw;
+      }
       
       .logo {
         height: 40px;
@@ -981,6 +986,9 @@ body{
       }
       .Blog_Titel {
         font-size: 2.5rem;
+      }
+      .blog_unterseite{
+        margin-top: 8rem;
       }
       .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
         font-size: 1.3rem;
