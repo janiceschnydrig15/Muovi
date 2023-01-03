@@ -938,6 +938,10 @@ body{
         margin: 0 5vw;
         width: 90vw;
       }
+      main {
+        margin: 0 15vw;
+        width: 70vw;
+      }
 
       .main_blog{
         margin: 0 10vw;
@@ -984,6 +988,15 @@ body{
       .partner{
         margin-top: 20px ;
       }
+      .Partner_Container {
+        width: 120vw;
+      }
+      #partner_logos {
+        width: 90%;
+      }
+      .partner h1 {
+        margin-bottom: 2rem;
+      }
       .blog_1, .blog_2, .blog_3 {
         font-size: 1.2rem;
         padding: 5px 10px;
@@ -1027,6 +1040,7 @@ body{
       }
       .plus {
         margin-left: -30px;
+        height: 5px;
       }
       .answer p {
         font-size: 1.2rem;
