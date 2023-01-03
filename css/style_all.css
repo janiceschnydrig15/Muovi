@@ -914,6 +914,11 @@ body{
   
     @media only screen and (max-width: 420px) {
   
+      .main{
+        margin: 0 5vw;
+        width: 90vw;
+      }
+      
       .logo {
         height: 40px;
       }
@@ -985,10 +990,10 @@ body{
         font-size: 2.5rem;
       }
       .container_QA{
-        width: 100%;
+        padding: 0 0;
       }
       .accordion{
-        width: 200px;
+        margin-top: 8rem;
       }
       .accordion-link{
         font-size: 1.4rem;
