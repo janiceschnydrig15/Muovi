@@ -912,7 +912,7 @@ body{
 
     /* Für Iphone 12 pro */
   
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 420px) {
   
       .logo {
         height: 40px;
