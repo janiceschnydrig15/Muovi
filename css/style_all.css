@@ -874,9 +874,11 @@ body{
         flex: none;
     }
 
-    .blog_unterseite_1  img{
+    .blog_unterseite_1  img, .blog_unterseite_2 img, .blog_unterseite_3  img{
         max-width: 35vw;
+        margin-left: 45px;
     }
+
 
     .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
         margin-top: 1rem;
@@ -965,7 +967,9 @@ body{
       #Stadtbezirk_Text{
         font-size: 1.2rem;
       }
-
+      .partner{
+        margin-top: 20px ;
+      }
       .blog_1, .blog_2, .blog_3 {
         font-size: 1.2rem;
         padding: 5px 10px;
@@ -994,6 +998,7 @@ body{
       .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
         font-size: 1.3rem;
         padding: 15px 20px;
+        width: 70vw;
     }  
       .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
           margin-top: 0.5rem;
