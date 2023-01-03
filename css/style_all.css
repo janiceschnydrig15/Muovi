@@ -371,6 +371,9 @@ body{
       margin: 0 auto;
       padding: 0 1.5rem;
   }
+  .container_QA h3{
+    display: none;
+  }
   
   .accordion{
       margin-top: 15rem;
@@ -993,7 +996,7 @@ body{
         padding: 0 0;
       }
       .accordion{
-        margin-top: 8rem;
+        margin-top: 7rem;
       }
       .accordion-link{
         font-size: 1.4rem;
@@ -1022,7 +1025,8 @@ body{
       }
       .footer-folgeuns{
         font-size: 1rem;
-        margin-left: 50px;
+        margin-top: 10px;
+        line-height: 5px;
       }
       .social-links a{
         height: 18px;
