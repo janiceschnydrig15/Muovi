@@ -751,7 +751,7 @@ body{
     .footer-col h4, .footer-col_2 h4{
       font-size: 1.2rem;
     }
-    .footer-col_2 {
+    .footer-col {
       display: none;
     }
     .footer-col ul li, .footer-col_2 ul li{
@@ -968,10 +968,8 @@ body{
       .Blog_Link div{
         font-size: 1.3rem;
       }
-
       header {
         padding: 15px 7%;
-
       }
       .Blog_Titel {
         font-size: 2.5rem;
