@@ -981,6 +981,27 @@ body{
       .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
           margin-top: 0.5rem;
       }
+      .QA_Titel {
+        font-size: 2.5rem;
+      }
+      .container_QA{
+        width: 100%;
+      }
+      .accordion{
+        width: 200px;
+      }
+      .accordion-link{
+        font-size: 1.4rem;
+      }
+      .accordion-item{
+        padding: 5px 10px;
+      }
+      .plus {
+        margin-left: -30px;
+      }
+      .answer p {
+        font-size: 1.2rem;
+      }
       .Team_Grafik p{
         font-size: 1rem;
       }
