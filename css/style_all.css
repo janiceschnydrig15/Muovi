@@ -902,6 +902,101 @@ body{
       flex-wrap: nowrap;
     }
   }
+
+
+    /* Für Iphone 12 pro */
   
+    @media only screen and (max-width: 400px) {
   
-  
+      .logo {
+        height: 40px;
+      }
+
+      .navigationsleiste {
+        font-size: 1.1rem;
+        gap: 1px;
+        padding: 5px 7%;
+      }
+      .navigationsleiste li a{
+        font-size: 1.1rem;
+        padding: 1px 7px;
+      }
+      h1 {
+        font-size: 1.9rem;
+        margin-top: 5rem;
+        margin-bottom: 2.5rem;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+      .Kalender {
+        gap: 10px;
+        margin-top: 0.25rem;
+      }
+      .Kalender_Text{
+        font-size: 1.2rem;
+        padding: 15px 20px;
+      }
+      .Stadtbezirk{
+        width: 90px;
+        height: 20px;
+        font-size: 1.2rem;
+      }
+      #Stadtbezirk_Text{
+        font-size: 1.2rem;
+      }
+
+      .blog_1, .blog_2, .blog_3 {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+      }
+      .blog {
+        margin-top: 1.2rem;
+      }
+      .blog_1 h2, .blog_2 h2, .blog_3 h2 {
+        margin-top: 5px;
+      }
+      .Blog_Link div{
+        font-size: 1.3rem;
+      }
+
+      header {
+        padding: 15px 7%;
+
+      }
+      .Blog_Titel {
+        font-size: 2.5rem;
+      }
+      .blog_unterseite_1, .blog_unterseite_2, .blog_unterseite_3 {
+        font-size: 1.3rem;
+        padding: 15px 20px;
+    }  
+      .blog_unterseite_1 h2, .blog_unterseite_2 h2, .blog_unterseite_3 h2{
+          margin-top: 0.5rem;
+      }
+      .Team_Grafik p{
+        font-size: 1rem;
+      }
+      .footer-col h4, .footer-col_2 h4{
+        font-size: 1rem;
+      }
+      .footer-col ul li, .footer-col_2 ul li{
+        font-size: 1rem;
+        margin-left: 60px;
+      }
+      .footer-col ul li a, .footer-col_2 ul li a{
+        font-size: 1rem;
+      }
+      .footer-folgeuns{
+        font-size: 1rem;
+        margin-left: 50px;
+      }
+      .social-links a{
+        height: 18px;
+        width: 18px;
+
+      }
+    }
