@@ -541,6 +541,7 @@ body{
 
   #footerQA{
     padding-top: 2rem;
+    padding-bottom: 2rem;
     position: absolute;
     width: 100vw;
   }
